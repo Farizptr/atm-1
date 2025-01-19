@@ -1,5 +1,9 @@
 {
   "users": [
-
+    {
+      "name": "Alice",
+      "balance": 0,
+      "debts": {}
+    }
   ]
 }

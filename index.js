@@ -86,7 +86,6 @@ function transfer(amount, targetUsername) {
     const debtPayment = Math.min(amount, targetUser.debts[currentUser.name]);
     targetUser.debts[currentUser.name] -= debtPayment;
 
-    // Remove debt if fully paid
     if (targetUser.debts[currentUser.name] === 0) {
       delete targetUser.debts[currentUser.name];
     }
@@ -187,7 +186,6 @@ function mainMenu() {
           });
         }
 
-        // Show debts owed by others
         data.forEach((user) => {
           if (user.debts && user.debts[currentUser.name] > 0) {
             console.log(
