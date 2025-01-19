@@ -1,0 +1,16 @@
+{
+  "name": "atm",
+  "version": "1.0.0",
+  "main": "atm.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
